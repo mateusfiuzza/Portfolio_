@@ -1,0 +1,309 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: monospace;
+}
+ul {
+    list-style: none;
+    background:transparent;
+    
+    position: fixed;
+    font-size: 1%;
+    justify-content: space-between;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+    justify-content: space-between;
+}
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: rgb(138, 39, 191);
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    justify-content: space-between;
+    
+}
+ul li ul .dropdown li {
+    display: block;
+}
+ul li ul.dropdown {
+    width: 100%;
+    background: #000000;
+    position: absolute;
+    text-align: center ;
+    display: none;
+    
+}
+ul li a:hover {
+    color:  rgb(255, 255, 255);
+    text-align: center;
+}
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+/* Minhas coisas  */
+
+body{
+    background: rgb(0, 0, 0) ;
+    color: rgb(243, 243, 243);
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400%;
+    font-style: normal;
+}
+
+.pag1{
+    background: linear-gradient( rgb(160, 46, 222) 0%, rgb(160, 46, 222) 0%, rgb(0, 0, 0) 70%);
+    color: aliceblue;
+    padding: 10%;
+   word-wrap: break-word;
+   padding-top: 15%;
+}
+    
+.h1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name{
+    margin: ;
+    
+}
+
+.perfil{
+    width: 150px;
+     border-radius: 20%;
+     Border: 0.4vh solid rgb(75, 19, 186);
+    
+     
+}
+
+ hr{
+border-color: rgb(101, 79, 129);
+
+ }
+
+.texto{
+
+    display: flex;
+    margin-top: 2%;
+      
+
+}
+
+.pag2{
+
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%, rgb(0, 0, 0) 50%);
+    margin: auto;
+    padding-right: 5% ;
+    padding-left: 5%;
+
+}
+.sobre:hover{
+
+    background: linear-gradient( rgb(255, 0, 0) 20%, rgb(0, 42, 253) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+.bio{
+    margin-left: 0%;
+    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(227, 221, 221) 5%, rgb(213, 208, 208) 70%);
+    padding-top: 2%;
+    font-size: 250%;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+.eumesmo{
+    display:flex;
+    justify-content:space-between;
+    margin-left: 7%;
+    margin-top: 5%;
+    padding-right: 1%;
+    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 5%, rgb(233, 233, 233) 70%);
+    padding-bottom: 0%;
+    font-size: 150% ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.biografia{
+
+    width: 70%;
+
+
+}
+
+.unj{
+margin-left: 5%;
+
+
+margin-top: 0%;}
+
+.pag3{
+    background: linear-gradient( rgb(0, 0, 0) 0%, rgb(0, 0, 0) 0%, rgb(22, 22, 22) 70%);
+    margin-bottom: 0%;
+    padding-top: 15%;
+    background-color: blue;
+}
+
+
+
+.projetos{
+    
+    border: 1% solid white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.img{
+background: linear-gradient( rgb(255, 255, 255) 0%, rgb(0, 0, 0) 0%, rgb(62, 16, 97) 70%);
+    border: #5900ff solid;
+    padding-left: 0%;
+    width:500% ;
+   
+}
+
+#JDM{
+    border: #5900ff solid 0.1vh;
+    width: 90%
+
+}
+
+#tech{
+    border: #5900ff solid 0.1vh;
+    width: 95% ;
+    height: 98%;
+}
+
+
+.ptittle{
+   
+    font-size: 350%;
+   text-align: justify;
+   background: linear-gradient( rgb(136, 136, 136) 0%, rgb(0, 0, 0) 20%, rgb(255, 255, 255) 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+
+.ptittle:hover{
+    font-size: 350%;
+    padding-left: 1%;
+   background: linear-gradient( rgb(255, 255, 255) 0%, rgb(143, 0, 253) 20%, rgb(0, 0, 0) 110%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.contato {
+
+    font-size: 250%;
+    padding-bottom: 0%;
+    text-align: center;
+}
+
+.contato:hover {
+
+    font-size: 250%;
+    padding-bottom: 0%;
+    text-align: center;
+    background: linear-gradient( rgb(140, 140, 140) 0%, rgb(126, 126, 126) 20%, rgb(255, 255, 255) 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.img4{
+
+    text-align: center;
+ 
+
+}
+
+.img4:hover{
+
+    
+    width: 40%;
+        -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+    
+
+@media (max-width: 574px) {
+    
+    body{
+        margin-right: 0%;
+
+
+    }
+  
+
+    .img{
+        width: 40%;
+        
+
+    }
+
+
+
+    .eumesmo{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .biografia{
+
+        width: 90%;
+    
+    
+    }
+
+    .unj{
+
+        margin: 0%;
+        
+
+    }
+
+
+
+    .projetos{
+        display: flex;
+        flex-wrap: wrap;
+        
+        margin-left: 0%;
+        justify-content: start;
+        margin-right: 0%;
+  }    
+  
+  #JDM{
+
+        width: 100%;
+        
+    }
+
+    #tech{
+
+        width: 140%;
+        
+    }
+
+
+
+  }     
+
+
+
