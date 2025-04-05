@@ -51,7 +51,6 @@ ul li:hover ul.dropdown {
 body{
     background: rgb(0, 0, 0) ;
     color: rgb(243, 243, 243);
-    font-family: "Press Start 2P", system-ui;
     font-weight: 400%;
     font-style: normal;
 }
@@ -165,7 +164,7 @@ margin-top: 0%;}
     display: flex;
     justify-content: center;
     text-align: center;
-
+    
 }
 
 .img{
@@ -178,13 +177,13 @@ background: linear-gradient( rgb(255, 255, 255) 0%, rgb(0, 0, 0) 0%, rgb(62, 16,
 
 #JDM{
     border: #5900ff solid 0.1vh;
-    width: 90%
+    width: 90%;
 
 }
 
 #tech{
     border: #5900ff solid 0.1vh;
-    width: 95% ;
+    width:95%;
     height: 98%;
 }
 
@@ -223,6 +222,11 @@ background: linear-gradient( rgb(255, 255, 255) 0%, rgb(0, 0, 0) 0%, rgb(62, 16,
     background: linear-gradient( rgb(140, 140, 140) 0%, rgb(126, 126, 126) 20%, rgb(255, 255, 255) 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.icones{
+
+    display: flex;
 }
 
 .img4{
@@ -282,8 +286,8 @@ background: linear-gradient( rgb(255, 255, 255) 0%, rgb(0, 0, 0) 0%, rgb(62, 16,
 
     .projetos{
         display: flex;
-        flex-wrap: wrap;
-        
+        flex-direction:column ;
+       
         margin-left: 0%;
         justify-content: start;
         margin-right: 0%;
@@ -291,13 +295,13 @@ background: linear-gradient( rgb(255, 255, 255) 0%, rgb(0, 0, 0) 0%, rgb(62, 16,
   
   #JDM{
 
-        width: 100%;
+    width: 248%;
         
     }
 
     #tech{
 
-        width: 140%;
+        width: 248%;
         
     }
 
