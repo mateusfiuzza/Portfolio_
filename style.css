@@ -100,7 +100,8 @@ border-color: rgb(101, 79, 129);
     background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%, rgb(0, 0, 0) 50%);
     margin: auto;
     padding-right: 5% ;
-    padding-left: 5%;
+    padding-left: 5%;    
+    
 
 }
 .sobre:hover{
@@ -108,7 +109,7 @@ border-color: rgb(101, 79, 129);
     background: linear-gradient( rgb(255, 0, 0) 20%, rgb(0, 42, 253) 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
+    transition: 0.2s; 
 
 }
 .bio{
@@ -222,6 +223,7 @@ background: linear-gradient( rgb(255, 255, 255) 0%, rgb(0, 0, 0) 0%, rgb(62, 16,
     background: linear-gradient( rgb(140, 140, 140) 0%, rgb(126, 126, 126) 20%, rgb(255, 255, 255) 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    transition: 0.2s; 
 }
 
 .icones{
@@ -232,7 +234,7 @@ background: linear-gradient( rgb(255, 255, 255) 0%, rgb(0, 0, 0) 0%, rgb(62, 16,
 .img4{
 
     text-align: center;
- 
+ transition: 0.2s; 
 
 }
 
@@ -242,6 +244,7 @@ background: linear-gradient( rgb(255, 255, 255) 0%, rgb(0, 0, 0) 0%, rgb(62, 16,
     width: 40%;
         -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    transition: 0.2s; 
 }
     
 
@@ -256,7 +259,7 @@ background: linear-gradient( rgb(255, 255, 255) 0%, rgb(0, 0, 0) 0%, rgb(62, 16,
 
     .img{
         width: 40%;
-        
+        transition: 0.2s; 
 
     }
 
