@@ -193,6 +193,7 @@ background: linear-gradient( rgb(255, 255, 255) 0%, rgb(0, 0, 0) 0%, rgb(62, 16,
    
     font-size: 350%;
    text-align: justify;
+    padding-left: 1%;
    background: linear-gradient( rgb(136, 136, 136) 0%, rgb(0, 0, 0) 20%, rgb(255, 255, 255) 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -212,14 +213,12 @@ background: linear-gradient( rgb(255, 255, 255) 0%, rgb(0, 0, 0) 0%, rgb(62, 16,
 
     font-size: 250%;
     padding-bottom: 0%;
-    text-align: center;
 }
 
 .contato:hover {
 
     font-size: 250%;
     padding-bottom: 0%;
-    text-align: center;
     background: linear-gradient( rgb(140, 140, 140) 0%, rgb(126, 126, 126) 20%, rgb(255, 255, 255) 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -229,6 +228,8 @@ background: linear-gradient( rgb(255, 255, 255) 0%, rgb(0, 0, 0) 0%, rgb(62, 16,
 .icones{
 
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .img4{
@@ -241,8 +242,8 @@ background: linear-gradient( rgb(255, 255, 255) 0%, rgb(0, 0, 0) 0%, rgb(62, 16,
 .img4:hover{
 
     
-    width: 40%;
-        -webkit-background-clip: text;
+    width: 25%;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: 0.2s; 
 }
